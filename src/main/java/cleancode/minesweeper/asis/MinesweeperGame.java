@@ -167,7 +167,7 @@ public class MinesweeperGame {
         for (int i = 0; i < 10; i++) {
             int col = new Random().nextInt(10);
             int row = new Random().nextInt(8);
-            isLandmineCell(row, col) = true;
+            landMines[col][row] = true;
         }
         for (int row = 0; row < 8; row++) {
             for (int col = 0; col < 10; col++) {
